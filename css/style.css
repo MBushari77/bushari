@@ -56,7 +56,24 @@ nav h1{
 	font-size: 5vw;
 	color: #009fff;
 }
+.about_me{
+	color: black;
+	padding: 20px;
 
+}
+.what_i_do{
+	color: black;
+	padding: 10px;
+	border-right: solid dimgray 1px;
+}
+.my_info{
+	border-bottom: solid dimgray 1px;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+.my_info p{
+	font-size: 17px;
+}
 @media (max-width: 770px) and (min-width: 10px){
 	.my_header_info{
 		text-align: center;
@@ -72,5 +89,11 @@ nav h1{
 	}
 	.header{
 		padding-bottom: 40px;
+	}
+	.what_i_do{
+		border: none;
+	}
+	.about_me{
+		border-bottom: solid dimgray 1px;
 	}
 }
